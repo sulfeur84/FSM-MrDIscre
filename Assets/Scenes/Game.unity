@@ -422,7 +422,6 @@ GameObject:
   - component: {fileID: 371304283}
   - component: {fileID: 371304282}
   - component: {fileID: 371304281}
-  - component: {fileID: 371304280}
   - component: {fileID: 371304279}
   m_Layer: 0
   m_Name: Ennemy (3)
@@ -440,23 +439,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 371304278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &371304280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371304278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!195 &371304281
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -587,7 +574,6 @@ GameObject:
   - component: {fileID: 475209284}
   - component: {fileID: 475209283}
   - component: {fileID: 475209282}
-  - component: {fileID: 475209281}
   - component: {fileID: 475209280}
   m_Layer: 0
   m_Name: Ennemy (7)
@@ -605,23 +591,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 475209279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &475209281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475209279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!195 &475209282
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -942,7 +916,6 @@ GameObject:
   - component: {fileID: 526748902}
   - component: {fileID: 526748901}
   - component: {fileID: 526748900}
-  - component: {fileID: 526748899}
   - component: {fileID: 526748898}
   m_Layer: 0
   m_Name: Ennemy (6)
@@ -960,23 +933,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 526748897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &526748899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526748897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!195 &526748900
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1820,7 +1781,6 @@ GameObject:
   - component: {fileID: 772932716}
   - component: {fileID: 772932715}
   - component: {fileID: 772932714}
-  - component: {fileID: 772932713}
   - component: {fileID: 772932712}
   m_Layer: 0
   m_Name: Ennemy (5)
@@ -1838,23 +1798,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 772932711}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &772932713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772932711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!195 &772932714
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2733,7 +2681,6 @@ GameObject:
   - component: {fileID: 1105620420}
   - component: {fileID: 1105620419}
   - component: {fileID: 1105620418}
-  - component: {fileID: 1105620417}
   - component: {fileID: 1105620416}
   m_Layer: 0
   m_Name: Ennemy (4)
@@ -2751,23 +2698,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1105620415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &1105620417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105620415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!195 &1105620418
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3519,7 +3454,6 @@ GameObject:
   - component: {fileID: 1565028836}
   - component: {fileID: 1565028840}
   - component: {fileID: 1565028841}
-  - component: {fileID: 1565028843}
   - component: {fileID: 1565028842}
   m_Layer: 0
   m_Name: Ennemy
@@ -3653,23 +3587,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1565028835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &1565028843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565028835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!1 &1697174735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,7 +3606,6 @@ GameObject:
   - component: {fileID: 1697174740}
   - component: {fileID: 1697174739}
   - component: {fileID: 1697174738}
-  - component: {fileID: 1697174737}
   - component: {fileID: 1697174736}
   m_Layer: 0
   m_Name: Ennemy (2)
@@ -3702,23 +3623,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1697174735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5717bb4724d07bd45a9c20f78b8ed243, type: 3}
+  m_Script: {fileID: 11500000, guid: ec0f11a824b31804eb74ceab40855dbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerForNewPath: 4
---- !u!114 &1697174737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697174735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efed60cb29b1d44098b2ebbf5335e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookRadius: 5.5
+  CurrentStat: 0
+  Point: []
 --- !u!195 &1697174738
 NavMeshAgent:
   m_ObjectHideFlags: 0
