@@ -28,8 +28,8 @@ public class MoveRandom : MonoBehaviour
 
     Vector3 getNewRandomsPosition()
     {
-        float x = Random.Range(-20, 20);
-        float z = Random.Range(-20, 20);
+        float x = Random.Range(-100, 100);
+        float z = Random.Range(-100, 100);
 
         Vector3 pos = new Vector3(x, 0, z);
         return pos;
@@ -45,7 +45,7 @@ public class MoveRandom : MonoBehaviour
 
         while (!ValidPath)
         {
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(1f);
             GetNewPath();
             ValidPath = NVM.CalculatePath(Target, Path);
         }
@@ -57,4 +57,5 @@ public class MoveRandom : MonoBehaviour
         Target = getNewRandomsPosition();
         NVM.SetDestination(Target);
     }
+
 }

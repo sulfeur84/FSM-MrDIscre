@@ -24,7 +24,7 @@ public class EnnemyController : MonoBehaviour
         {
             agent.SetDestination(target.position);
             FaceTarget();
-        }
+        } 
         
         if (Input.GetKey(KeyCode.LeftShift)) lookRadius = 4f ;
         else lookRadius = 5.5f;
