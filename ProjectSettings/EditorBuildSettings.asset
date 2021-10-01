@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Hardcore.unity
+    guid: e63cdbb55cfdb274e89b187fd6aef417
+  - enabled: 1
+    path: "Assets/Scenes/gagn\xE9.unity"
+    guid: 9451a869d54fa3b4f901337bb35051fb
   m_configObjects: {}

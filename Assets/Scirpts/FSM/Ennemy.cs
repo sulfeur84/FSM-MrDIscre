@@ -16,6 +16,8 @@ public class Ennemy : MonoBehaviour
     private Transform target;
     private NavMeshAgent agent;
 
+    public float SpeedIdle, SpeedChase, SpeedSearch;
+
     private void Start()
     {
         target = PlayerManager.instance.player.transform;
@@ -51,7 +53,7 @@ public class Ennemy : MonoBehaviour
     }
     void Idle()
     {
-        agent.speed = 4f;
+        agent.speed = SpeedIdle;
         if(!agent.hasPath)
         {
             int ind = Random.Range(0, Point.Count);
@@ -62,7 +64,7 @@ public class Ennemy : MonoBehaviour
     }
     void Chase()
     {
-        agent.speed = 4f;
+        agent.speed = SpeedChase;
         agent.SetDestination(target.position);
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x,0,direction.z));
@@ -70,7 +72,7 @@ public class Ennemy : MonoBehaviour
     }
     void Search()
     {
-        agent.speed = 1f;
+        agent.speed = SpeedSearch;
     }
 
     private void OnTriggerEnter(Collider other)
